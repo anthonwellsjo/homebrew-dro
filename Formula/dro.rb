@@ -13,6 +13,6 @@ class Dro < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    bin.install "espanso"
+    bin.install "dro"
   end
 end
