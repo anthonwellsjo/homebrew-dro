@@ -13,6 +13,6 @@ class Dro < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "cargo", "install", *std_cargo_args
+    bin.install "espanso"
   end
 end
